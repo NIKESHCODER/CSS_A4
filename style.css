@@ -1,0 +1,127 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+h1{
+    background-image: linear-gradient(to right, red,yellow, green);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main{
+
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.c1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(99, 119, 119); 
+    max-width: 400px;
+    margin: 10px; 
+    padding: 15px; 
+}
+nav{
+    border: 1px red solid;
+    border-radius: 15px;
+    text-align: center;
+    background-color: aquamarine;
+}
+li{
+    list-style-position: inside;
+    list-style-type: circle;
+    
+}
+.c2{
+    text-align: center;
+    text-decoration: underline;
+    background-image: linear-gradient(to right,red ,yellow, red );
+    font-size: larger;
+    font-weight: 800;
+}
+.main2{
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-image: radial-gradient(blue, red, pink);
+    display: flex;
+    justify-content: space-around;
+    
+    text-align: center;
+}
+.c3{
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+}
+.main3{
+    border: 1px solid red;
+    background-image: conic-gradient(red,blue,yellow);
+    border-radius: 10px;
+    margin-top: 40px;
+    position: relative;
+    
+}
+.cc{
+    background-image: linear-gradient(red,yellow,pink);
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
+.ccc{
+    
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    
+    
+    
+    
+    }
+.c4{
+    background-color: aquamarine;
+    padding: 10px;
+    height: 60px;
+}
+.c5{
+    background-color: rgb(213, 183, 146);
+    padding: 10px;
+    height: 60px;
+}
+.c6{
+    background-color: cadetblue;
+    padding: 10px;
+    height: 60px;
+}
+.c7{
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+.c8{
+    background-color: darkcyan;
+    max-width: 1235px;
+    padding: 10px;
+    position: relative;
+    top: -65px;
+}
+.c9{
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: darkseagreen;
+    text-align: center;
+    height: 50px;
+    
+}
+
+
+
